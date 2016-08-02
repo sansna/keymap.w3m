@@ -162,8 +162,8 @@ keymap :h SELECT_MENU
 #keymap :h HISTORY
 
 ########## scrolling ##########
-keymap C-e DOWN
-keymap C-y UP
+keymap C-e UP
+keymap C-y DOWN
 keymap gg BEGIN
 keymap G END
 keymap C-d NEXT_PAGE
