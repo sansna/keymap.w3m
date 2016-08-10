@@ -154,6 +154,7 @@ keymap ZQ NULL
 ########## command ##########
 keymap :: COMMAND
 keymap :H HELP
+keymap :O OPTIONS
 
 ########## history navigation ##########
 keymap L NEXT
