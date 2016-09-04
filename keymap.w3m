@@ -155,6 +155,7 @@ keymap ZQ NULL
 keymap :: COMMAND
 keymap :H HELP
 keymap :O OPTIONS
+keymap :d DOWNLOAD_LIST
 
 ########## history navigation ##########
 keymap L NEXT
@@ -191,6 +192,7 @@ keymap f MOVE_LIST_MENU
 keymap F LIST_MENU
 keymap C-n NEXT_LINK
 keymap C-p PREV_LINK
+keymap :L PEEK_LINK
 
 # reload
 keymap r RELOAD
@@ -239,6 +241,3 @@ keymap T TAB_MENU
 keymap :q QUIT 
 keymap ZZ QUIT
 keymap ZQ EXIT
-
-########## link ##########
-keymap :L PEEK_LINK
