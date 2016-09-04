@@ -160,8 +160,8 @@ keymap :d DOWNLOAD_LIST
 ########## history navigation ##########
 keymap L NEXT
 keymap H PREV
-keymap :h SELECT_MENU
-#keymap :h HISTORY
+keymap :p SELECT_MENU
+keymap :h HISTORY
 
 ########## scrolling ##########
 keymap C-e UP
@@ -192,7 +192,7 @@ keymap f MOVE_LIST_MENU
 keymap F LIST_MENU
 keymap C-n NEXT_LINK
 keymap C-p PREV_LINK
-keymap :L PEEK_LINK
+keymap :l PEEK_LINK
 
 # reload
 keymap r RELOAD
