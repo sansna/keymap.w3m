@@ -238,6 +238,6 @@ keymap t TAB_GOTO
 keymap T TAB_MENU
 
 ########## quit ##########
-keymap :q QUIT 
-keymap ZZ QUIT
-keymap ZQ EXIT
+keymap ZZ EXIT
+keymap ZQ QUIT
+keymap :q QUIT
