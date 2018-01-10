@@ -173,9 +173,9 @@ keymap C-u PREV_PAGE
 keymap zz CENTER_V
 ########## cursor ##########
 #keymap l MOVE_RIGHT
-keymap l TAB_RIGHT
+keymap l NEXT_TAB
 #keymap h MOVE_LEFT
-keymap h TAB_LEFT
+keymap h PREV_TAB
 #keymap j MOVE_DOWN1
 keymap j UP
 #keymap k MOVE_UP1
