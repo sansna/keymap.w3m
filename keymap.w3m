@@ -169,7 +169,9 @@ keymap C-y DOWN
 keymap gg BEGIN
 keymap G END
 keymap C-d NEXT_PAGE
+keymap d NEXT_PAGE
 keymap C-u PREV_PAGE
+keymap u PREV_PAGE
 keymap zz CENTER_V
 ########## cursor ##########
 #keymap l MOVE_RIGHT
@@ -230,7 +232,6 @@ keymap a ADD_BOOKMARK
 keymap :b VIEW_BOOKMARK
 
 ########## tab ##########
-keymap d CLOSE_TAB
 keymap x CLOSE_TAB
 keymap gh GOTO http://www.google.com/en
 keymap gH TAB_GOTO http://www.google.com/en
